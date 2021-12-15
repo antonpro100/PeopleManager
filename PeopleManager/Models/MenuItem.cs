@@ -1,4 +1,6 @@
-﻿namespace PeopleManager.ConsoleApp.Models
+﻿using System;
+
+namespace PeopleManager.ConsoleApp.Models
 {
     public class MenuItem
     {

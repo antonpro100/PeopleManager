@@ -1,4 +1,6 @@
-﻿namespace PeopleManager.Core.Dtos
+﻿using System;
+
+namespace PeopleManager.Core.Dtos
 {
     public class SpouseDto
     {

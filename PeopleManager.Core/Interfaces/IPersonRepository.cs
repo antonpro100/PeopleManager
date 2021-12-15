@@ -1,5 +1,6 @@
-﻿using PeopleManager.Core.Dtos;
-using PeopleManager.Core.Entities;
+﻿using PeopleManager.Core.Entities;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace PeopleManager.Core.Interfaces
 {

@@ -1,4 +1,6 @@
-﻿namespace PeopleManager.ConsoleApp.ConsoleBuilders
+﻿using System;
+
+namespace PeopleManager.ConsoleApp.ConsoleBuilders
 {
     public abstract class ConsoleModelBuilder<T>
     {

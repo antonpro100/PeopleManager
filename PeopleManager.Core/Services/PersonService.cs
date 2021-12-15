@@ -1,6 +1,10 @@
 ﻿using PeopleManager.Core.Dtos;
 using PeopleManager.Core.Entities;
 using PeopleManager.Core.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace PeopleManager.Core.Services
 {

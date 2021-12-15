@@ -5,6 +5,9 @@ using PeopleManager.ConsoleApp.Models;
 using PeopleManager.Core.Interfaces;
 using PeopleManager.Core.Services;
 using PeopleManager.Infrastructure.FileStarage;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace PeopleManager.ConsoleApp
 {
@@ -75,7 +78,7 @@ namespace PeopleManager.ConsoleApp
             }
             catch (Exception ex)
             {
-                Console.Error.WriteLine(ex);
+                Console.WriteLine(ex.Message);
             }
             finally
             {

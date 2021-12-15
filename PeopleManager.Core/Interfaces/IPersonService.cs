@@ -1,4 +1,6 @@
 ﻿using PeopleManager.Core.Dtos;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace PeopleManager.Core.Interfaces
 {

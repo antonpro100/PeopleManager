@@ -1,4 +1,4 @@
-﻿using PeopleManager.Core.Common;
+﻿using System;
 
 namespace PeopleManager.Core.Entities
 {

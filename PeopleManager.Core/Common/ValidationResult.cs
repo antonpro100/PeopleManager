@@ -1,4 +1,7 @@
-﻿namespace PeopleManager.Core.Common
+﻿using System.Collections.Generic;
+using System.Linq;
+
+namespace PeopleManager.Core.Common
 {
     public class ValidationResult
     {
