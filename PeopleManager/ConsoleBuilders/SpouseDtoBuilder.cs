@@ -6,6 +6,7 @@ namespace PeopleManager.ConsoleApp.ConsoleBuilders
     {
         public override SpouseDto Build()
         {
+            Console.WriteLine("Spouse data");
             var dto = new SpouseDto();
             dto.FirstName = ReadString("First Name:");
             dto.LastName = ReadString("Last Name:");
