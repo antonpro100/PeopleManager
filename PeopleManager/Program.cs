@@ -60,9 +60,10 @@ namespace PeopleManager.ConsoleApp
             var validator = _serviceProvider.GetService<IPersonValidator>();
 
             var builder = new PersonDtoBuilder();
-            var personDto = builder.Build();
+
             try
             {
+                var personDto = builder.Build();
                 var vr = validator.IsValid(personDto);
                 if (vr.IsValid)
                 {
